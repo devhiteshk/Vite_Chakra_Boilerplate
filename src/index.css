@@ -1,0 +1,21 @@
+@import "./styles/fonts.css";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, Poppins, "Anke Devanagari", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fallback: ensure body color follows Chakra semantic token in dark/light mode */
+.dark body {
+  color: var(--chakra-colors-fg);
+}
+.light body {
+  color: var(--chakra-colors-fg);
+}
